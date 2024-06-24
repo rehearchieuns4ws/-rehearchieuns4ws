@@ -1,0 +1,7 @@
+        int data1 = input.nextInt();
+
+        System.out.println(" nextInt(): " + data1);
+
+        input.close();
+    }
+}
