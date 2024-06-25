@@ -1,0 +1,13 @@
+      System.out.println("output1: " + output1.getEncoding());
+      System.out.println("output2: " + output2.getEncoding());
+
+      //  reader
+      output1.close();
+      output2.close();
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
